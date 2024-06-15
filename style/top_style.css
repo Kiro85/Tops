@@ -1,0 +1,484 @@
+/*Tamaños de imagenes:
+- top 3: 1827x300
+- Top3:hover: 1827x600
+- top 10: 508x300 */
+
+
+/*Inicio Top Cards*/
+
+.card_wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin-left: 1%;
+    max-width: 100%;
+    padding: 30px 28px;
+    grid-gap: 30px;
+    align-items: stretch;
+  }
+
+  .card_wrapper2 {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin-left: 8%;
+    max-width: 100%;
+    padding: 30px 28px;
+    grid-gap: 30px;
+    align-items: stretch;
+  }
+
+  .card_wrapper2 p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 250px;
+    font-size:  150%;
+  }
+  
+  .card {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+  
+  /*Fin Top Cards*/
+
+
+/*---------------------------------------------------KIRO----------------------------------------------------------*/
+
+
+  /*tops 1 kiro */
+
+  .cardtop1 {
+    display: inline-block;
+    background-image: url(../media/ffviilogo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+  
+  .cardtop1:hover {
+    background-image: url(../media/ffvii.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop1 p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: gold;
+    margin-top: 6.5%;
+    margin-left: 2%;
+  }
+
+  .cardtop1:hover p{
+    display: none;
+  }
+
+  /*tops 2 kiro */
+
+  .cardtop2 {
+    display: inline-block;
+    background-image: url(../media/sekirologo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 285px;
+  }
+  
+  .cardtop2:hover {
+    background-image: url(../media/Sekiro.jpg);
+    height: 900px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop2 p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: #b4b6b9;
+    margin-top: 6.5%;
+    margin-left: 2%;
+  }
+
+  .cardtop2:hover p{
+    
+    display: none;
+  }
+
+
+  /*tops 3 kiro */
+
+  .cardtop3 {
+    display: inline-block;
+    background-image: url(../media/Persona5logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop3:hover {
+    background-image: url(../media/Persona5.jpg);
+    height: 900px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop3 p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: #f8c00791;
+    margin-top: 6.5%;
+    margin-left: 2%;
+  }
+
+  .cardtop3:hover p{
+    display: none;
+  }
+
+   /*tops 4 kiro */
+
+   .card4 {
+    display: inline-block;
+    background-image: url(../media/gow.png);
+    background-size: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 5 kiro */
+
+   .card5 {
+    display: inline-block;
+    background-image: url(../media/ffx.png);
+    background-size: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 6 kiro */
+
+   .card6 {
+    display: inline-block;
+    background-image: url(../media/ds1.webp);
+    background-size: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 7 kiro */
+
+   .card7 {
+    display: inline-block;
+    background-image: url(../media/eldenring.png);
+    background-size: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 8 kiro */
+
+   .card8 {
+    display: inline-block;
+    background-image: url(../media/ds2.webp);
+    background-size: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 9 kiro */
+
+   .card9 {
+    display: inline-block;
+    background-image: url(../media/ffxv.jpg);
+    background-size: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 10 kiro */
+
+   .card10 {
+      display: inline-block;
+      background-image: url(../media/nier.jpeg);
+      background-size: 100%;
+      border-radius: 4px;
+      box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      height: 285px;
+    
+      transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+    
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+
+    /*tops 11 kiro */
+
+   .card11 {
+    display: inline-block;
+    background-image: url(../media/otros.webp);
+    background-size: 100%;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+  .card11 p {
+    color: white;
+    font-size: 180%;
+  }
+
+
+
+/*---------------------------------------------------KANU----------------------------------------------------------*/
+
+
+
+
+  /*tops 1 Kanu */
+
+  .card1_2 {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+
+
+  /*tops 2 Kanu */
+
+  .card2_2 {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+
+  /*tops 3 Kanu */
+
+  .card3_2 {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 4 Kanu */
+
+   .card4_2 {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 5 Kanu */
+
+   .card5_2 {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 6 Kanu */
+
+   .card6_2 {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 7 Kanu */
+
+   .card7_2 {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 8 Kanu */
+
+   .card8_2 {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+  
+   /*tops 9 Kanu */
+
+   .card9_2 {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+   /*tops 10 Kanu */
+
+   .card10_2 {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 285px;
+  
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
