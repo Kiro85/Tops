@@ -54,11 +54,6 @@ if(document.querySelector('#container-slider')){
 
 
 
-
-
-
-
-
     
 
 
