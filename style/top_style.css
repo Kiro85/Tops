@@ -4,11 +4,16 @@
 - top3 mobile: 422x285 */
 
 
+
+
+/*---------------------------------------------------GENERAL----------------------------------------------------------*/
+
+
 /*Inicio Top Cards*/
 
 .card_wrapper {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    margin-left: 1%;
+    margin: 1.5% 0% 0% 1%;
     max-width: 100%;
     padding: 30px 28px;
     grid-gap: 30px;
@@ -17,338 +22,14 @@
 
   .card_wrapper2 {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    margin-left: 8%;
+    margin: 2% 0 0 6%;
     max-width: 100%;
     padding: 30px 28px;
     grid-gap: 30px;
     align-items: stretch;
   }
   
-  
   /*Fin Top Cards*/
-
-
-/*---------------------------------------------------KIRO----------------------------------------------------------*/
-
-
-  /*tops 1 kiro */
-
-  .cardtop1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 1%;
-    background-image: url(../media/ffviilogo.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    width: 100%;
-    height: 285px;
-    background-position: center;
-  }
-  
-  .cardtop1:hover {
-    background-image: url(../media/ffvii.jpg);
-    height: 1200px;
-    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
-  }
-  
-  .cardtop1 p {
-    font-size: 220%;
-    font-family: minecraft;
-    color: gold;
-  }
-
-  .cardtop1:hover p{
-    display: none;
-  }
-
-  @media (max-width: 520px) {
-    .cardtop1 {
-      background-image: url(../media/ffviimobile.png);
-      justify-content: left;
-      margin-bottom: 1%;
-    }
-    .cardtop1:hover {
-      background-image: url(../media/ffviimobile.png);
-      height: 285px;
-      transition: none;
-    }
-    .cardtop1 p {
-      font-size: 220%;
-    }
-    .cardtop1:hover p {
-      display: flex;
-    }
-  }
-
-  /*tops 2 kiro */
-
-  .cardtop2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 1%;
-    background-image: url(../media/sekirologo.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    width: 100%;
-    height: 285px;
-    background-position: center;
-  }
-  
-  .cardtop2:hover {
-    background-image: url(../media/Sekiro.jpg);
-    height: 1200px;
-    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
-  }
-  
-  .cardtop2 p {
-    font-size: 220%;
-    font-family: minecraft;
-    color: grey;
-  }
-
-  .cardtop2:hover p{
-    display: none;
-  }
-
-  @media (max-width: 520px) {
-    .cardtop2 {
-      background-image: url(../media/sekiromobile.png);
-      justify-content: left;
-      margin-bottom: 1%;
-    }
-    .cardtop2:hover {
-      background-image: url(../media/sekiromobile.png);
-      height: 285px;
-      transition: none;
-    }
-    .cardtop2 p {
-      font-size: 220%;
-    }
-    .cardtop2:hover p {
-      display: flex;
-    }
-  }
-
-
-  /*tops 3 kiro */
-
-  .cardtop3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 1%;
-    background-image: url(../media/Persona5logo.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    width: 100%;
-    height: 285px;
-    background-position: center;
-  }
-  
-  .cardtop3:hover {
-    background-image: url(../media/Persona5.jpg);
-    height: 1200px;
-    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
-  }
-  
-  .cardtop3 p {
-    font-size: 220%;
-    font-family: minecraft;
-    color: #bc641f;
-  }
-
-  .cardtop3:hover p{
-    display: none;
-  }
-
-  @media (max-width: 520px) {
-    .cardtop3 {
-      background-image: url(../media/persona5mobile.png);
-      justify-content: left;
-      margin-bottom: 1%;
-    }
-    .cardtop3:hover {
-      background-image: url(../media/persona5mobile.png);
-      height: 285px;
-      transition: none;
-    }
-    .cardtop3 p {
-      font-size: 220%;
-    }
-    .cardtop3:hover p {
-      display: flex;
-    }
-  }
-
-
-
-  /*---------------------------------------------------KANU----------------------------------------------------------*/
-
-
-  /*tops 1 kanu */
-
-  .cardtop1_2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 1%;
-    background-image: url(../media/ffviilogo.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    width: 100%;
-    height: 285px;
-    background-position: center;
-  }
-  
-  .cardtop1_2:hover {
-    background-image: url(../media/ffvii.jpg);
-    height: 1200px;
-    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
-  }
-  
-  .cardtop1_2 p {
-    font-size: 220%;
-    font-family: minecraft;
-    color: gold;
-  }
-
-  .cardtop1_2:hover p{
-    display: none;
-  }
-
-  @media (max-width: 520px) {
-    .cardtop1_2 {
-      background-image: url(../media/ffviimobile.png);
-      justify-content: left;
-      margin-bottom: 1%;
-    }
-    .cardtop1_2:hover {
-      background-image: url(../media/ffviimobile.png);
-      height: 285px;
-      transition: none;
-    }
-    .cardtop1_2 p {
-      font-size: 220%;
-    }
-    .cardtop1_2:hover p {
-      display: flex;
-    }
-  }
-
-  /*tops 2 kanu */
-
-  .cardtop2_2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 1%;
-    background-image: url(../media/sekirologo.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    width: 100%;
-    height: 285px;
-    background-position: center;
-  }
-  
-  .cardtop2_2:hover {
-    background-image: url(../media/Sekiro.jpg);
-    height: 1200px;
-    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
-  }
-  
-  .cardtop2_2 p {
-    font-size: 220%;
-    font-family: minecraft;
-    color: grey;
-  }
-
-  .cardtop2_2:hover p{
-    display: none;
-  }
-
-  @media (max-width: 520px) {
-    .cardtop2_2 {
-      background-image: url(../media/sekiromobile.png);
-      justify-content: left;
-      margin-bottom: 1%;
-    }
-    .cardtop2_2:hover {
-      background-image: url(../media/sekiromobile.png);
-      height: 285px;
-      transition: none;
-    }
-    .cardtop2_2 p {
-      font-size: 220%;
-    }
-    .cardtop2_2:hover p {
-      display: flex;
-    }
-  }
-
-
-  /*tops 3 kanu */
-
-  .cardtop3_2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 1%;
-    background-image: url(../media/Persona5logo.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    width: 100%;
-    height: 285px;
-    background-position: center;
-  }
-  
-  .cardtop3_2:hover {
-    background-image: url(../media/Persona5.jpg);
-    height: 1200px;
-    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
-  }
-  
-  .cardtop3_2 p {
-    font-size: 220%;
-    font-family: minecraft;
-    color: #bc641f;
-  }
-
-  .cardtop3_2:hover p{
-    display: none;
-  }
-
-  @media (max-width: 520px) {
-    .cardtop3_2 {
-      background-image: url(../media/persona5mobile.png);
-      justify-content: left;
-      margin-bottom: 1%;
-    }
-    .cardtop3_2:hover {
-      background-image: url(../media/persona5mobile.png);
-      height: 285px;
-      transition: none;
-    }
-    .cardtop3_2 p {
-      font-size: 220%;
-    }
-    .cardtop3_2:hover p {
-      display: flex;
-    }
-  }
-
-
-
-     /*---------------------------------------------------GENERAL----------------------------------------------------------*/
-
-
 
    /*tops 3-10 */
 
@@ -377,7 +58,22 @@
     object-fit: cover;
   }
 
-  @media (max-width: 1200px) {
+  @media (min-width: 1001px) {
+    .cardextras {
+        display: inline-block;
+        background-size: 100% 100%;
+        width: 60%;
+        height: 100%;
+      
+        transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+      
+        &:hover {
+          transform: scale(1.03);
+        }
+      }
+    }
+
+  @media (max-width: 1000px) {
     .card_wrapper2 {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -390,9 +86,10 @@
     .card {
       width: 100%;
     }
+    
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 850px) {
     .card_wrapper2 {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       margin-left: 0%;
@@ -418,15 +115,1033 @@
   }
 
   .cardextras {
-    display: inline-block;
-    background-size: 100% 100%;
-    border-radius: 4px;
-    width: 60%;
-    height: 100%;
-  
-    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
-  
     &:hover {
       transform: scale(1.03);
     }
   }
+
+
+
+  
+
+/*-----------------------------------------------TOP GENERAL-------------------------------------------------------*/
+
+
+/*---------------------------------------------------KIRO----------------------------------------------------------*/
+
+
+  /*tops 1 kiro */
+
+  .cardtop1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/ffviilogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop1:hover {
+    background-image: url(../media/top3/ffvii.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop1 p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: gold;
+  }
+
+  .cardtop1:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop1 {
+      background-image: url(../media/top3/ffviimobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop1:hover {
+      background-image: url(../media/top3/ffviimobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop1 p {
+      font-size: 220%;
+    }
+    .cardtop1:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+  /*tops 2 kiro */
+
+  .cardtop2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/sekirologo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop2:hover {
+    background-image: url(../media/top3/Sekiro.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop2 p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: grey;
+  }
+
+  .cardtop2:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop2 {
+      background-image: url(../media/top3/sekiromobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop2:hover {
+      background-image: url(../media/top3/sekiromobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop2 p {
+      font-size: 220%;
+    }
+    .cardtop2:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+  /*tops 3 kiro */
+
+  .cardtop3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/Persona5logo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop3:hover {
+    background-image: url(../media/top3/Persona5.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop3 p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: #bc641f;
+  }
+
+  .cardtop3:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop3 {
+      background-image: url(../media/top3/Persona5mobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop3:hover {
+      background-image: url(../media/top3/persona5mobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop3 p {
+      font-size: 220%;
+    }
+    .cardtop3:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+
+  /*---------------------------------------------------KANU----------------------------------------------------------*/
+
+
+  /*tops 1 kanu */
+
+  .cardtop1_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/minecraftlogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop1_2:hover {
+    background-image: url(../media/top3/minecraft.webp);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop1_2 p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: gold;
+  }
+
+  .cardtop1_2:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop1_2 {
+      background-image: url(../media/top3/minecraftmobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop1_2:hover {
+      background-image: url(../media/top3/minecraftmobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop1_2 p {
+      font-size: 220%;
+    }
+    .cardtop1_2:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+  /*tops 2 kanu */
+
+  .cardtop2_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/ffviilogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop2_2:hover {
+    background-image: url(../media/top3/ffvii.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop2_2 p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: grey;
+  }
+
+  .cardtop2_2:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop2_2 {
+      background-image: url(../media/top3/ffviimobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop2_2:hover {
+      background-image: url(../media/top3/ffviimobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop2_2 p {
+      font-size: 220%;
+    }
+    .cardtop2_2:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+  /*tops 3 kanu */
+
+  .cardtop3_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/ffxlogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop3_2:hover {
+    background-image: url(../media/ffx.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop3_2 p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: #bc641f;
+  }
+
+  .cardtop3_2:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop3_2 {
+      background-image: url(../media/top3/ffxmobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop3_2:hover {
+      background-image: url(../media/top3/ffxmobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop3_2 p {
+      font-size: 220%;
+    }
+    .cardtop3_2:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+
+
+
+  /*-----------------------------------------------TOP SINGLE-------------------------------------------------------*/
+
+
+/*---------------------------------------------------KIRO----------------------------------------------------------*/
+
+
+  /*tops 1 kiro */
+
+  .cardtop1s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/ffviilogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop1s:hover {
+    background-image: url(../media/top3/ffvii.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop1s p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: gold;
+  }
+
+  .cardtop1s:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop1s {
+      background-image: url(../media/top3/ffviimobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop1s:hover {
+      background-image: url(../media/top3/ffviimobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop1s p {
+      font-size: 220%;
+    }
+    .cardtop1s:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+  /*tops 2 kiro */
+
+  .cardtop2s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/sekirologo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop2s:hover {
+    background-image: url(../media/top3/Sekiro.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop2s p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: grey;
+  }
+
+  .cardtop2s:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop2s {
+      background-image: url(../media/top3/sekiromobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop2s:hover {
+      background-image: url(../media/top3/sekiromobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop2s p {
+      font-size: 220%;
+    }
+    .cardtop2s:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+  /*tops 3 kiro */
+
+  .cardtop3s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/Persona5logo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop3s:hover {
+    background-image: url(../media/top3/Persona5.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop3s p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: #bc641f;
+  }
+
+  .cardtop3s:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop3s {
+      background-image: url(../media/top3/persona5mobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop3s:hover {
+      background-image: url(../media/top3/persona5mobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop3s p {
+      font-size: 220%;
+    }
+    .cardtop3s:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+
+  /*---------------------------------------------------KANU----------------------------------------------------------*/
+
+
+  /*tops 1 kanu */
+
+  .cardtop1_2s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/ffviilogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop1_2s:hover {
+    background-image: url(../media/top3/ffvii.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop1_2s p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: gold;
+  }
+
+  .cardtop1_2s:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop1_2s {
+      background-image: url(../media/top3/ffviimobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop1_2s:hover {
+      background-image: url(../media/top3/ffviimobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop1_2s p {
+      font-size: 220%;
+    }
+    .cardtop1_2s:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+  /*tops 2 kanu */
+
+  .cardtop2_2s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/ffxlogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop2_2s:hover {
+    background-image: url(../media/top3/ffx.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop2_2s p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: grey;
+  }
+
+  .cardtop2_2s:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop2_2s {
+      background-image: url(../media/top3/ffxmobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop2_2s:hover {
+      background-image: url(../media/top3/ffxmobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop2_2s p {
+      font-size: 220%;
+    }
+    .cardtop2_2s:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+  /*tops 3 kanu */
+
+  .cardtop3_2s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/sekirologo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop3_2s:hover {
+    background-image: url(../media/top3/Sekiro.jpg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop3_2s p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: #bc641f;
+  }
+
+  .cardtop3_2s:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop3_2s {
+      background-image: url(../media/top3/sekiromobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop3_2s:hover {
+      background-image: url(../media/top3/sekiromobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop3_2s p {
+      font-size: 220%;
+    }
+    .cardtop3_2s:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+    
+
+
+
+
+
+/*-----------------------------------------------TOP INDIE-------------------------------------------------------*/
+
+
+/*---------------------------------------------------KIRO----------------------------------------------------------*/
+
+
+  /*tops 1 kiro */
+
+  .cardtop1i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/hollowlogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop1i:hover {
+    background-image: url(../media/top3/hollow.webp);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop1i p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: gold;
+  }
+
+  .cardtop1i:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop1i {
+      background-image: url(../media/top3/hollowmobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop1i:hover {
+      background-image: url(../media/top3/hollowmobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop1i p {
+      font-size: 220%;
+    }
+    .cardtop1i:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+  /*tops 2 kiro */
+
+  .cardtop2i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/sifulogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop2i:hover {
+    background-image: url(../media/top3/sifu.webp);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop2i p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: grey;
+  }
+
+  .cardtop2i:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop2i {
+      background-image: url(../media/top3/sifumobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop2i:hover {
+      background-image: url(../media/top3/sifumobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop2i p {
+      font-size: 220%;
+    }
+    .cardtop2i:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+  /*tops 3 kiro */
+
+  .cardtop3i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/hadeslogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop3i:hover {
+    background-image: url(../media/top3/hades.jpeg);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop3i p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: #bc641f;
+  }
+
+  .cardtop3i:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop3i {
+      background-image: url(../media/top3/hadesmobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop3i:hover {
+      background-image: url(../media/top3/hadesmobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop3i p {
+      font-size: 220%;
+    }
+    .cardtop3i:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+
+  /*---------------------------------------------------KANU----------------------------------------------------------*/
+
+
+  /*tops 1 kanu */
+
+  .cardtop1_2i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/terrarialogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop1_2i:hover {
+    background-image: url(../media/top3/terraria.png);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop1_2i p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: gold;
+  }
+
+  .cardtop1_2i:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop1_2i {
+      background-image: url(../media/top3/terrariamobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop1_2i:hover {
+      background-image: url(../media/top3/terrariamobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop1_2i p {
+      font-size: 220%;
+    }
+    .cardtop1_2i:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+  /*tops 2 kanu */
+
+  .cardtop2_2i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/seaofstarslogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop2_2i:hover {
+    background-image: url(../media/top3/seaofstars.webp);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop2_2i p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: grey;
+  }
+
+  .cardtop2_2i:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop2_2i {
+      background-image: url(../media/top3/seaofstartsmobile.png);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop2_2i:hover {
+      background-image: url(../media/top3/seaofstartsmobile.png);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop2_2i p {
+      font-size: 220%;
+    }
+    .cardtop2_2i:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }
+
+
+  /*tops 3 kanu */
+
+  .cardtop3_2i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+    background-image: url(../media/top3/foragerlogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 100%;
+    height: 285px;
+    background-position: center;
+  }
+  
+  .cardtop3_2i:hover {
+    background-image: url(../media/top3/forager.webp);
+    height: 1000px;
+    transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  }
+  
+  .cardtop3_2i p {
+    font-size: 220%;
+    font-family: minecraft;
+    color: #bc641f;
+  }
+
+  .cardtop3_2i:hover p{
+    display: none;
+  }
+
+  @media (max-width: 850px) {
+    .cardtop3_2i {
+      background-image: url(../media/top3/foragermobile.jpg);
+      justify-content: left;
+      margin-bottom: 1%;
+    }
+    .cardtop3_2i:hover {
+      background-image: url(../media/top3/foragermobile.jpg);
+      height: 285px;
+      transition: none;
+    }
+    .cardtop3_2i p {
+      font-size: 220%;
+    }
+    .cardtop3_2i:hover p {
+      display: flex;
+    }
+    .card_wrapper {
+      margin: 6% 0% 0% 1%;
+    }
+  }  
