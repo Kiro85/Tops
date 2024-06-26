@@ -92,6 +92,7 @@
   @media (max-width: 850px) {
     .card_wrapper2 {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      margin: 10% 0 0 0;
       margin-left: 0%;
       max-width: 100%;
       padding: 30px 28px;
@@ -109,7 +110,6 @@
   .image-wrapper p {
     position: absolute;
     color: black;
-    font-size:  200%;
     bottom: 0;
     z-index: 1;
   }
