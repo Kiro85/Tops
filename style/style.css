@@ -773,3 +773,9 @@ div.ff7 * {
     width: 30px;
   }
 }
+
+@media (max-width: 370px) {
+  nav[role=navigation]>ul {
+    padding-left: 6%;
+  }
+}
