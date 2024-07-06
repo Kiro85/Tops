@@ -559,7 +559,7 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 1%;
-  background-image: url(../media/top3/sekirologo.png);
+  background-image: url(../media/top3/persona3logo.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 4px;
@@ -569,7 +569,7 @@
 }
 
 .cardtop2s:hover {
-  background-image: url(../media/top3/Sekiro.jpg);
+  background-image: url(../media/top3/persona3.jpeg);
   height: 1000px;
   transition: 0.9s cubic-bezier(0.374, 0.019, 0.035, 1.861);
 }
@@ -586,13 +586,13 @@
 
 @media (max-width: 850px) {
   .cardtop2s {
-    background-image: url(../media/top3/sekiromobile.png);
+    background-image: url(../media/top3/persona3mobile.png);
     justify-content: left;
     margin-bottom: 1%;
   }
 
   .cardtop2s:hover {
-    background-image: url(../media/top3/sekiromobile.png);
+    background-image: url(../media/top3/persona3mobile.png);
     height: 285px;
     transition: none;
   }
