@@ -55,6 +55,11 @@ body {
   top: 0;
   left: 0;
   z-index: 10;
+
+  &:hover {
+    transform: rotate(360deg);
+    transition: 0.7s;
+  }
 }
 
 /*Inicio barra de navegación*/
